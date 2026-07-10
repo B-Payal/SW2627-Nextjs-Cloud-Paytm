@@ -1,5 +1,6 @@
 import { cookies } from "next/headers";
 import bcrypt from "bcryptjs";
+import prisma from "@/lib/prisma";
 
 import { generateToken } from "@/lib/jwt";
 
